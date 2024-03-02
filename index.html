@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <header>
+            <div class="row mt-3 mb-5 py-3">
+                <div class="col d-flex justify-content-center">
+                    <img src="img/candado.png" alt="imagen candado" width="150" height="150" srcset="">
+                    <h1 class="mt-5">Encriptado y Desencriptado de texto</h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="row my-3">
+                <div class="d-flex justify-content-evenly">
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <h5 class="card-header text-center" for="entrada-texto">Ingrese el texto en minúsculas y sin caracteres especiales</h5>
+                            <form action="">
+                                    <textarea name="entrada-texto" id="entrada-texto" class="form-control text-justify" placeholder="Por favor ingrese el texto" rows="10"></textarea>
+                            </form>
+                        </div>
+                        <div class="d-flex justify-content-evenly mt-3 mb-3">
+                            <button onclick="encriptarTexto();" type="button" class="btn btn-lg btn-outline-primary">Encriptar</button>
+                            <button onclick="desencriptarTexto();" type="button" class="btn btn-lg btn-outline-primary">Desencriptar</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <h5 class="card-header text-center" for="salida-texto">Salida de Texto</h5>
+                            <form action="">
+                                    <textarea name="salida-texto" id="salida-texto" class="form-control text-justify" placeholder="No se ha detectado ningún texto" rows="10"></textarea>
+                            </form>
+                        </div>
+                        <div class="d-flex justify-content-center mt-3 mb-5">
+                            <button onclick="copiar();" type="button" class="btn btn-outline-primary btn-lg">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="row mb-3 py-3">
+                <div class="col-12 d-flex justify-content-center">
+                    <img src="img/candado.png" width="90" height="90" alt="imagen candado" srcset="">
+                </div>
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="group-vertical">
+                            <div class="col-12">
+                                <h7>Challenge Encriptado de texto - Alura Latam<h7>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <h7>Josué Yunuén Joaquín Oropeza - 2024<h7>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
