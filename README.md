@@ -1,7 +1,6 @@
 <h1>Encriptador de texto 2.0</h1>
 
 Objetivo:
-
 -El objetivo de este proyecto es mejorar la versión anterior de el encriptador de texto.
 -Se desarrollo una interfaz responsive para todos los tipos de pantallas y dispositivos, siendo así una interfaz amigable en todo sentido.
 -Se optó por una nueva paleta de colores para un visual menos saturado.
